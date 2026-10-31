@@ -38,6 +38,23 @@ Click any **Quick-Fill** button on the [Login Screen](http://localhost:3000/logi
 > *New customer accounts can also be created via [/register](http://localhost:3000/register).*
 
 ---
+## User Roles & Access Control
+
+| Feature | Admin | Staff | Customer |
+|---|:---:|:---:|:---:|
+| Dashboard | Full | Limited | Own |
+| Staff Management | Yes | No | No |
+| Products & Plans | Full | Limited | No |
+| Quotations | Full | Limited | No |
+| Subscriptions | All | Limited | Own |
+| Invoices | All | Limited | Own |
+| Discounts | Full | Limited | No |
+| Payments | Full | Limited | Own Status |
+| Reports & Analytics | Full | Limited | No |
+| System Settings | Full | No | No |
+
+
+---
 
 ## 🛠️ Technology Stack
 
