@@ -42,17 +42,21 @@ Click any **Quick-Fill** button on the [Login Screen](http://localhost:3000/logi
 
 | Feature | Admin | Staff | Customer |
 |---|:---:|:---:|:---:|
-| Dashboard | Full | Limited | Own |
-| Staff Management | Yes | No | No |
-| Products & Plans | Full | Limited | No |
-| Quotations | Full | Limited | No |
-| Subscriptions | All | Limited | Own |
-| Invoices | All | Limited | Own |
-| Discounts | Full | Limited | No |
-| Payments | Full | Limited | Own Status |
-| Reports & Analytics | Full | Limited | No |
-| System Settings | Full | No | No |
+| Dashboard | ✅ | ✅ | ✅ |
+| Staff Management | ✅ | ❌ | ❌ |
+| Products & Plans | ✅ | 🟡 Limited | ❌ |
+| Quotations | ✅ | 🟡 Limited | ❌ |
+| Subscriptions | ✅ All | 🟡 Limited | 👤 Own |
+| Invoices | ✅ All | 🟡 Limited | 👤 Own |
+| Discounts | ✅ | 🟡 Limited | ❌ |
+| Payments | ✅ | 🟡 Limited | 👤 Own |
+| Reports & Analytics | ✅ | 🟡 Limited | ❌ |
+| System Settings | ✅ | ❌ | ❌ |
 
+
+**Note:** Only Admin can create Staff accounts.
+
+**Legend:** ✅ Access | 🟡 Limited Access | 👤 Own Data | ❌ No Access
 
 ---
 
