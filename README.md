@@ -8,10 +8,11 @@
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Supabase-316192?style=flat-square&logo=postgresql)](https://supabase.com/)
 [![Prisma](https://img.shields.io/badge/Prisma-5.22_ORM-2D3748?style=flat-square&logo=prisma)](https://www.prisma.io/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-Modern_UI-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
+[![Odoo Compatible](https://img.shields.io/badge/Odoo_ERP-Compatible-714B67?style=flat-square&logo=odoo)](https://www.odoo.com/)
 
 <br />
 
-[🌐 **Live Demo**](http://localhost:3000) • [🎥 **Video Walkthrough**](https://youtu.be/demo-brightloop-preview) • [👥 **Demo Logins**](#-demo-accounts) • [📁 **Folder Structure**](#-folder-structure)
+[🌐 **Live Demo**](http://localhost:3000) • [🎥 **Video Walkthrough**](https://youtu.be/demo-brightloop-preview) • [👥 **Demo Logins**](#-demo-accounts) • [📁 **Folder Structure**](#-folder-structure) • [🛠️ **Tech Stack**](#️-technology-stack)
 
 ---
 
@@ -35,6 +36,21 @@ Click any **Quick-Fill** button on the [Login Screen](http://localhost:3000/logi
 | **🏢 Customer** | `customer@techflow.io` | `Password123!` | Self-service portal: Active contracts, Invoices, PDF Downloads |
 
 > *New customer accounts can also be created via [/register](http://localhost:3000/register).*
+
+---
+
+## 🛠️ Technology Stack
+
+| Layer | Technology | Key Capabilities |
+|:---|:---|:---|
+| **Core Framework** | Next.js 14.2 (App Router) | Server Components, Streaming SSR, Route Handlers |
+| **Language** | TypeScript 5 (Strict) | Compile-time type safety across database & client |
+| **Database** | PostgreSQL (Supabase) | Cloud relational storage, connection pooling |
+| **ORM** | Prisma v5.22.0 | Type-safe queries, relational migrations, Decimal support |
+| **Authentication** | NextAuth.js + bcryptjs | Multi-role session management, 12 salt rounds hashing |
+| **Styling & UI** | Tailwind CSS + Lucide Icons | Responsive enterprise dark/light theme tokens |
+| **Analytics** | Recharts | Real-time MRR growth, ARR cohort & revenue distribution |
+| **Validation** | Zod + React Hook Form | Strict schema validation with instant error feedback |
 
 ---
 
@@ -157,3 +173,19 @@ npx ts-node --compiler-options '{"module":"commonjs"}' tests/financial.test.ts
 | `POST` | `/api/subscriptions/[id]/status`| Admin, Staff | Contract action (`PAUSE`, `RESUME`, `CLOSE`, `RENEW`) |
 | `POST` | `/api/payments` | Admin, Staff | Record payment with balance check |
 | `GET`  | `/api/reports` | Admin, Staff | Fetch live MRR, ARR & revenue metrics |
+
+---
+
+<div align="center">
+
+### 🟣 Engineered for Enterprise ERP & Odoo Ecosystems
+
+*Built with the design elegance of **Linear**, the financial precision of **Stripe Billing**, and the operational depth of **Odoo Enterprise Subscriptions**.*
+
+*Architected to seamlessly integrate with **Odoo ERP pipelines**, multi-tier product variants, automated recurring invoicing, and corporate audit ledgers.*
+
+<br />
+
+**Brightloop Software Inc.** • Enterprise Subscription Infrastructure
+
+</div>
