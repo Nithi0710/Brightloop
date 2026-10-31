@@ -12,7 +12,7 @@
 
 <br />
 
-[🌐 **Live Demo**](http://localhost:3000) • [🎥 **Video Walkthrough**](https://youtu.be/demo-brightloop-preview) • [👥 **Demo Logins**](#-demo-accounts) • [📁 **Folder Structure**](#-folder-structure) • [🛠️ **Tech Stack**](#️-technology-stack)
+[🌐 **Live Demo**](https://brightloop-phi.vercel.app/) • [🎥 **Video Walkthrough**](https://youtu.be/demo-brightloop-preview) • [👥 **Demo Logins**](#-demo-accounts) • [📁 **Folder Structure**](#-folder-structure) • [🛠️ **Tech Stack**](#️-technology-stack)
 
 ---
 
@@ -20,7 +20,7 @@
 
 ## 🎥 Product Video & Live Demo
 
-- **Live URL:** [(https://brightloop-phi.vercel.app/)]
+- **Live URL:** (https://brightloop-phi.vercel.app/)
 - **Video Walkthrough:** [https://youtu.be/demo-brightloop-preview](https://youtu.be/demo-brightloop-preview)
 
 ---
